@@ -1,1 +1,35 @@
 
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer: 
+// 
+// Create Date: 09.06.2026 10:22:14
+// Design Name: 
+// Module Name: mux2_1if
+// Project Name: 
+// Target Devices: 
+// Tool Versions: 
+// Description: 
+// 
+// Dependencies: 
+// 
+// Revision:
+// Revision 0.01 - File Created
+// Additional Comments:
+// 
+//////////////////////////////////////////////////////////////////////////////////
+
+
+module mux2_1if(input [1:0]i,input s,output reg y
+
+    );
+    
+    always @(*)
+    begin
+    if(s)
+    y=i[1];
+    else
+    y=i[0];
+    end
+endmodule
