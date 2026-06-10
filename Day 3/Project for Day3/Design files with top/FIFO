@@ -1,1 +1,64 @@
+`timescale 1ns / 1ps
 
+module fifo2(
+    input  wire       clk,
+    input  wire       rst,
+    input  wire       wrenb,
+    input  wire       rdenb,
+    input  wire [7:0] data_in,
+    output reg  [7:0] data_out,
+    output reg        full,
+    output reg        empty
+);
+
+    reg [7:0] mem [0:7];
+    reg [2:0]  rd_ptr;
+    reg [2:0]  wr_ptr;
+    reg [3:0]  count;
+    integer i;
+
+    always @(*) begin
+        full  = (count == 4'd8);
+        empty = (count == 4'd0);
+    end
+
+    always @(posedge clk or posedge rst) begin
+        if (rst) begin
+            rd_ptr   <= 3'd0;
+            wr_ptr   <= 3'd0;
+            count    <= 4'd0;
+            data_out <= 8'd0;
+
+            for (i = 0; i < 8; i = i + 1)
+                mem[i] <= 8'd0;
+        end
+        else begin
+            case ({wrenb && !full, rdenb && !empty})
+                2'b10: begin
+                    mem[wr_ptr] <= data_in;
+                    wr_ptr      <= wr_ptr + 3'd1;
+                    count       <= count + 4'd1;
+                end
+
+                2'b01: begin
+                    data_out    <= mem[rd_ptr];
+                    rd_ptr      <= rd_ptr + 3'd1;
+                    count       <= count - 4'd1;
+                end
+
+                2'b11: begin
+                    mem[wr_ptr] <= data_in;
+                    wr_ptr      <= wr_ptr + 3'd1;
+                    data_out    <= mem[rd_ptr];
+                    rd_ptr      <= rd_ptr + 3'd1;
+                    count       <= count;
+                end
+
+                default: begin
+                    count <= count;
+                end
+            endcase
+        end
+    end
+
+endmodule
