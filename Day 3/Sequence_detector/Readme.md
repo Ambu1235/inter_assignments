@@ -34,6 +34,10 @@ The output signal is asserted when the FSM reaches the detection state correspon
 * Serial data sequence monitoring
 * Sequence detection output generation
 
+  State Diagram
+
+<img width="766" height="599" alt="image" src="https://github.com/user-attachments/assets/a8949ab9-1000-4c38-bda3-fff1ff65853e" />
+
 ## Inputs and Outputs
 
 ### Inputs
@@ -63,6 +67,10 @@ The synthesized RTL schematic confirms the FSM-based implementation and includes
 * Next State Logic
 * Detection Logic
 * Clock and Reset Circuitry
+
+  RTL Diagram
+
+<img width="1032" height="517" alt="image" src="https://github.com/user-attachments/assets/4496fc54-af36-48aa-bad9-6fe77b6ad0dc" />
 
 ## Simulation and Verification
 
@@ -97,13 +105,9 @@ The simulation waveform verified:
 
 ✅ Reset functionality operated correctly
 
-State Diagram
 
-<img width="766" height="599" alt="image" src="https://github.com/user-attachments/assets/a8949ab9-1000-4c38-bda3-fff1ff65853e" />
 
-RTL Diagram
 
-<img width="1032" height="517" alt="image" src="https://github.com/user-attachments/assets/4496fc54-af36-48aa-bad9-6fe77b6ad0dc" />
 
 Graphs
 
