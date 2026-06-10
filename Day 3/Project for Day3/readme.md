@@ -1,4 +1,4 @@
-# Day X – FIFO-Based Data Buffering and FSM-Controlled Output System
+# Day 3 – FIFO-Based Data Buffering and FSM-Controlled Output System
 
 ## Overview
 
