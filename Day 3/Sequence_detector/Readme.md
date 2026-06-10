@@ -98,10 +98,15 @@ The simulation waveform verified:
 ✅ Reset functionality operated correctly
 
 State Diagram
+
 <img width="766" height="599" alt="image" src="https://github.com/user-attachments/assets/a8949ab9-1000-4c38-bda3-fff1ff65853e" />
+
 RTL Diagram
+
 <img width="1032" height="517" alt="image" src="https://github.com/user-attachments/assets/4496fc54-af36-48aa-bad9-6fe77b6ad0dc" />
-Graph 
+
+Graphs
+
 <img width="1241" height="158" alt="image" src="https://github.com/user-attachments/assets/dc6a9316-af60-47b6-9131-520de7cbb581" />
 <img width="1267" height="200" alt="image" src="https://github.com/user-attachments/assets/585c1510-f62b-4a29-9868-fa4279625449" />
 
