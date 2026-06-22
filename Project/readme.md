@@ -90,6 +90,15 @@ The primary objectives of this enhancement are:
 +--------------------------------------------------+
 ```
 
+<img width="790" height="358" alt="image" src="https://github.com/user-attachments/assets/63b7989c-4426-4604-a73a-59e1c6eada84" />
+
+<img width="412" height="462" alt="image" src="https://github.com/user-attachments/assets/7adf50b2-f079-47e0-a0c8-bd8f4d93e7e0" />
+
+<img width="950" height="642" alt="image" src="https://github.com/user-attachments/assets/ea49315f-df7c-4c8d-9db1-733e9bfaa763" />
+
+
+
+
 ### Enhanced Scatter-Gather Architecture
 
 ```text
@@ -111,6 +120,16 @@ The primary objectives of this enhancement are:
 |  AXI Master Interface                                  |
 +---------------------------------------------------------+
 ```
+
+<img width="1600" height="775" alt="WhatsApp Image 2026-06-22 at 9 56 37 PM" src="https://github.com/user-attachments/assets/ddf5c880-545e-46c1-9eaa-10f14d6b15ea" />
+
+<img width="695" height="495" alt="image" src="https://github.com/user-attachments/assets/93042b44-7cbf-48fb-a144-35a1b7c2c823" />
+
+
+<img width="786" height="637" alt="image" src="https://github.com/user-attachments/assets/1cb35d46-745c-43a5-941f-c0e8f2e43ba1" />
+
+
+
 
 ---
 
