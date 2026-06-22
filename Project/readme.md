@@ -1,9 +1,7 @@
-================================================================================
+
         AXI DMA CONTROLLER WITH SCATTER-GATHER ENHANCEMENT
                         DESIGN AND VERIFICATION REPORT
-================================================================================
 
-                              SystemVerilog
 
                             TEAM MEMBERS
                         PRAYAG V T (Lead)
@@ -13,13 +11,9 @@
                         ISAC
                         LAKSHMI
 
-                        PROJECT MANAGER
-                        [Your Department/Institution]
-
                 Simulator: Vivado 2023.2 XSIM | Language: SystemVerilog
                         Date: June 2024
 
-================================================================================
 
 
 
