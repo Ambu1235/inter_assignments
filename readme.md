@@ -106,43 +106,7 @@ inter_assignments/
 ```
 
 
-## Complete VLSI CYCLE
 
-┌─────────────┐
-│ Specification│
-└──────┬──────┘
-       │
-       ▼
-┌─────────────┐
-│  RTL Design │ ◄── Verilog/SystemVerilog
-└──────┬─────┘
-       │
-       ▼
-┌─────────────┐
-│ Simulation  │ ◄── ModelSim/VCS
-└──────┬──────┘
-       │
-       ▼
-┌─────────────┐
-│ Synthesis   │ ◄── Design Compiler/Vivado
-└──────┬──────┘
-       │
-       ▼
-┌──────────────────┐
-│ Physical Design  │ ◄── Place & Route
-└──────┬───────────┘
-       │
-       ▼
-┌─────────────┐
-│Verification │ ◄── STA, LVS, DRC
-└──────┬──────┘
-       │
-       ▼
-┌─────────────┐
-│  Tapeout    │
-└─────────────┘
-
----
 
 ## Skills Developed
 
